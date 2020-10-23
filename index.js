@@ -5,6 +5,11 @@ appDiv.innerHTML = `<h1>Flatten multidimentional arrays</h1>`;
 
 console.log("nestedArray", nestedArray);
 
+/*
+ * function receives nested array of objects as a parameter
+ * function returns a flatten array based on property "subMenuItemList" which has multiple nested arrays
+ */
+
 const createFlattenMenuItemList = menuItems => {
   const flatten = [];
   for (const menuItem of menuItems) {
